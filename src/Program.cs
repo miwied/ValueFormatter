@@ -33,6 +33,8 @@ class Program
                     FormatFile(filePath, formattedFilePath);
                 };
 
+                FormatFile(filePath, formattedFilePath);
+
                 // Watcher starten
                 watcher.EnableRaisingEvents = true;
                 Console.WriteLine($"Überwachung der Datei '{filePath}' gestartet. Drücke Enter, um zu beenden.");
